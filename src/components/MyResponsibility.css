@@ -1,0 +1,87 @@
+.my-responsibility-container {
+    /* background-color: #f0f0f0; */
+    padding: 20px;
+  }
+  
+  .responsibility-card {
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .branch-card {
+    /* background-color: #d0e0f0; */
+    border-radius: 15px;
+  }
+
+  
+  .task-card, .learning-card, .communications-card, .benefits-card {
+    /* border-radius: 15px; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .responsibility-icon {
+    font-size: 3rem;
+    /* margin-bottom: 10px; */
+    color: #333;
+  }
+  
+  .footer {
+    position: absolute;
+    top: 15px; 
+    right: 12px; 
+  }
+  .card-title,.card-text{
+    font-size: 25px;
+  }
+  /* MyResponsibility.css */
+
+@media (max-width: 576px) {
+    .task-card .card-title,
+    .learning-card .card-title,
+    .communications-card .card-title,
+    .benefits-card .card-title {
+      font-size: 14px;
+    }
+  
+    .task-card .card-text,
+    .learning-card .card-text,
+    .communications-card .card-text,
+    .benefits-card .card-text {
+      font-size: 14px;
+    }
+  
+    .responsibility-icon {
+      font-size: 24px;
+    }
+  
+    .branch-card .card-title,
+    .branch-card .card-text {
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 577px) {
+    .task-card .card-title,
+    .learning-card .card-title,
+    .communications-card .card-title,
+    .benefits-card .card-title {
+      font-size: 16px;
+    }
+  
+    .task-card .card-text,
+    .learning-card .card-text,
+    .communications-card .card-text,
+    .benefits-card .card-text {
+      font-size: 14px;
+    }
+  
+    .responsibility-icon {
+      font-size: 28px;
+    }
+  
+    .branch-card .card-title,
+    .branch-card .card-text {
+      font-size: 14px;
+    }
+  }
