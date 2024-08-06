@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Matrix-Comp/static/css/main.5a7b453f.css",
+    "main.js": "/Matrix-Comp/static/js/main.7038c913.js",
+    "index.html": "/Matrix-Comp/index.html",
+    "main.5a7b453f.css.map": "/Matrix-Comp/static/css/main.5a7b453f.css.map",
+    "main.7038c913.js.map": "/Matrix-Comp/static/js/main.7038c913.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a7b453f.css",
+    "static/js/main.7038c913.js"
+  ]
+}
